@@ -21,7 +21,6 @@ a {
 
 .colum-left, .right-colum {
     float: left;
-    /* background-color: blue; */
 }
 
 .small-button-blue-white {
@@ -63,7 +62,6 @@ a {
 /* Nav Right */
 .colum-right{
     float: right;
-    /* background-color: blue; */
 }
 
 .colum-right ul li:last-child a {
@@ -74,18 +72,18 @@ a {
 /* Main Jumbo */
 .background-header {
     background-color: #b4d0e7;
-    height: 750px;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    position: relative;
+    bottom: -90px;
 }
 
 .container div h1 {
     font-size: 80px;
     width: 90%;
-    padding-top: 70px;
 }
 
 .colum-l50 {
@@ -115,6 +113,5 @@ a {
 
 .colum-r50 > img {
     height: 550px;
-    padding-top: 50px;
 }
 /* /Main Jumbo */
