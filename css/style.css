@@ -111,8 +111,61 @@ a {
     height: 550px;
 }
 
-.fas {
+.fa-arrow-down {
     margin-top: 40px;
     font-size: 40px;
 }
 /* /Main Jumbo */
+.container2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container2 > h2 {
+    font-size: 50px;
+    padding-top: 215px;
+    margin-bottom: 60px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.radio-r {
+    margin-left: 20px;
+}
+
+.first-colum {
+    float: left;
+    min-height: 800px;
+    width: 300px;
+    background-color: red;
+}
+
+.second-colum {
+    width: calc(100% / 3 -120px);
+    margin-left: 60px;
+    margin-right: 60px;
+    float: left;
+    min-height: 800px;
+    width: 300px;
+    background-color: red;
+
+}
+
+.third-colum {
+    float: left;
+    min-height: 800px;
+    width: 300px;
+    background-color: red;
+}
+
+.fa-user {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.business-plan {
+    margin-top: 40px;
+}
