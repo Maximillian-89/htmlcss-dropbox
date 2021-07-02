@@ -37,6 +37,11 @@ a {
     padding: 8px 28px;
 }
 
+.big-button-blue-white-colum {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 10px 66px;
+}
 /* /Common */
 /* Nav left */
 .colum-left li, .colum-right li {
@@ -185,6 +190,10 @@ label {
     margin-bottom: 50px;
 }
 
+.single-plan span {
+    font-weight: 500;
+}
+
 .far.fa-user {
     font-size: 17px;
 }
@@ -193,11 +202,43 @@ label {
     margin: 30px 0px;
 }
 
-
-.fas.fa-pencil-alt {
-    /* font-size: 15px; */
-    /* font-weight: 500; */
+.try-button {
+    margin-top: 55px;
+    margin-bottom: 30px;
 }
+
+.buy-now {
+    text-decoration: underline;
+    color: #0061ff;
+}
+.single-plan hr {
+    width: 20%;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    color: #d0d0d3;
+    border-top-width: 0px;
+    border-top-style: solid;
+}
+
+.single-plan h4 {
+    font-size: 20px;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.highlights-plan > div {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
 
 
 
