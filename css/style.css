@@ -19,17 +19,21 @@ a {
     clear: both;
 }
 
-.colum-left {
+.colum-left, .right-colum {
     float: left;
     /* background-color: blue; */
 }
-/* /Common */
-/* Nav left */
-.nav, .nav {
-    height: 80px;
-    /* background-color: red; */
+
+.small-button-blue-white {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 5px 15px;
+    background-color: #0061ff;
 }
 
+/* /Common */
+/* Nav left */
 .colum-left li, .colum-right li {
     display: inline-block;
     text-align: center;
@@ -56,17 +60,56 @@ a {
     /* background-color: blue; */
 }
 
-.colum-right ul li a:last-child {
-    /* background-color: #0061ff;
+.colum-right ul li:last-child a {
     color: #fff;
-    height: 32px;
-    font-size: 16px;
-    line-height: 26px;
-    padding: 0px 20px; */
-    margin-right: 20px;
+    margin-right: 20px;   
 }
-/* Nav Right */
+/* /Nav Right */
+/* Main */
 .background-header {
     background-color: #b4d0e7;
     height: 750px;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container div h1 {
+    font-size: 80px;
+    width: 90%;
+    padding-top: 70px;
+}
+
+.colum-l50 {
+    float: left;
+    width: calc(100% / 2);
+}
+
+.colum-l50 p:first-child {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.colum-l50 a {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.colum-r50 {
+    float: left;
+    width: 50%;
+}
+
+.colum-r50 > img {
+    height: 550px;
+    padding-top: 50px;
+}
+
+
+/* /Main */
