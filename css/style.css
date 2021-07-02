@@ -32,6 +32,12 @@ a {
     background-color: #0061ff;
 }
 
+.big-button-blue-white {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 8px 28px;
+}
+
 /* /Common */
 /* Nav left */
 .colum-left li, .colum-right li {
@@ -65,7 +71,7 @@ a {
     margin-right: 20px;   
 }
 /* /Nav Right */
-/* Main */
+/* Main Jumbo */
 .background-header {
     background-color: #b4d0e7;
     height: 750px;
@@ -93,10 +99,11 @@ a {
     font-weight: 400;
 }
 
+.colum-l50 p:last-child {
+    margin-top: 20px;
+}
+
 .colum-l50 a {
-    background-color: #0061ff;
-    color: #fff;
-    padding: 5px 15px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -110,6 +117,4 @@ a {
     height: 550px;
     padding-top: 50px;
 }
-
-
-/* /Main */
+/* /Main Jumbo */
