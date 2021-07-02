@@ -94,16 +94,12 @@ a {
 .colum-l50 p:first-child {
     margin-top: 50px;
     margin-bottom: 30px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.colum-l50 p:last-child {
+.colum-l50 div {
     margin-top: 20px;
-}
-
-.colum-l50 a {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .colum-r50 {
@@ -113,5 +109,10 @@ a {
 
 .colum-r50 > img {
     height: 550px;
+}
+
+.fas {
+    margin-top: 40px;
+    font-size: 40px;
 }
 /* /Main Jumbo */
