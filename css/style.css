@@ -37,7 +37,7 @@ a {
     padding: 8px 28px;
 }
 
-.big-button-blue-white-colum {
+.big-button-blue-white-colum, .big-button-right {
     background-color: #0061ff;
     color: #fff;
     padding: 10px 66px;
@@ -150,10 +150,10 @@ label {
 .first-colum, .second-colum, .third-colum {
     float: left;
     width: calc((100% / 3) - 40px);
-    min-height: 800px;
+    min-height: 820px;
 }
 /* Main Colum */
-.first-colum, .second-colum, .third-colum {
+.first-colum, .second-colum, .third-colum, .last-colum {
     border: 1px solid #d0d0d3;
 }
 
@@ -179,7 +179,7 @@ label {
     margin: 0 10%;
 }
 
-.single-plan h3 {
+.single-plan h3, .single-plan2 h3 {
     margin-top: 30px;
     font-size: 27px;
 }
@@ -237,6 +237,35 @@ label {
     margin-top: 35px;
     margin-bottom: 35px;
 }
+
+.last-colum {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.single-plan2 {
+    width: 94%;
+    margin: 0 3%;
+}
+
+.button-right {
+    position: relative
+}
+
+.big-button-right {
+    position: absolute;
+    right: 0;
+}
+
+.sales-office {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
 /* /Main Colum */
 /* Main Plan */
 
