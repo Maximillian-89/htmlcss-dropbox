@@ -40,7 +40,7 @@ a {
 .big-button-blue-white-colum, .big-button-right {
     background-color: #0061ff;
     color: #fff;
-    padding: 10px 66px;
+    padding: 10px 62px;
 }
 /* /Common */
 /* Nav left */
@@ -264,10 +264,86 @@ label {
     margin-bottom: 40px;
     font-weight: bold;
 }
-
-
-
 /* /Main Colum */
 /* Main Plan */
+/* Find pattern */
+.partner-left, .partner-right {
+    float: left;
+    width: 50%;
+}
 
+.partner-left > img {
+    width: 100%;
+}
+
+.partner-right {
+    padding-top: 50px;
+}
+
+.join-partner {
+    margin: 0 10%;
+}
+
+.join-partner h3 {
+    font-size: 28px;
+}
+
+.join-partner p {
+    margin: 30px 0px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.find-partner-buttom {
+    color: #000;
+    padding: 8px 28px;
+    border: 1px solid black;
+}
+/* /Find pattern */
+/* Features tools */
+.tools-column-left, .tools-column-center, .tools-column-right {
+    float: left;
+    width: calc((100% / 3) - 60px);
+}
+
+.tools-column-left img, .tools-column-center img, .tools-column-right img {
+    width: 100%;
+}
+
+.tools-column-left h3, .tools-column-center h3, .tools-column-right h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.tools-column-left p, .tools-column-center p, .tools-column-right p {
+    font-size: 18px;
+}
+
+.tools-column-left p span {
+    text-decoration: underline;
+}
+
+.tools-column-center {
+    margin: 0px 60px;
+}
+
+.features {
+    margin-top: 130px;
+}
+/* /Features tools */
+.test {
+    width: 55%;
+}
+
+.test h2 {
+    margin-top: 210px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.test a {
+    text-decoration: underline;
+    font-size: 18px;
+    color: #0061ff;
+}
 
