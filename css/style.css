@@ -150,7 +150,7 @@ label {
 .first-colum, .second-colum, .third-colum {
     float: left;
     width: calc((100% / 3) - 40px);
-    min-height: 820px;
+    min-height: 1200px;
 }
 /* Main Colum */
 .first-colum, .second-colum, .third-colum, .last-colum {
@@ -242,6 +242,7 @@ label {
     margin-top: 50px;
     margin-bottom: 150px;
     width: 100%;
+    min-height: 250px;
 }
 
 .single-plan2 {
@@ -260,7 +261,7 @@ label {
 
 .sales-office {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-weight: bold;
 }
 
