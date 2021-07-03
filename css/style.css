@@ -152,9 +152,14 @@ label {
     width: calc((100% / 3) - 40px);
     min-height: 800px;
 }
-/* Left Colum */
-.first-colum {
+/* Main Colum */
+.first-colum, .second-colum, .third-colum {
     border: 1px solid #d0d0d3;
+}
+
+.second-colum {
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .single-txt {
@@ -194,7 +199,7 @@ label {
     font-weight: 500;
 }
 
-.far.fa-user {
+.far.fa-user, .fas.fa-user-plus {
     font-size: 17px;
 }
 
@@ -232,28 +237,7 @@ label {
     margin-top: 35px;
     margin-bottom: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-.second-colum {
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: red;
-
-}
-
-.third-colum {
-    background-color: red;
-}
-
-
-
+/* /Main Colum */
 /* Main Plan */
+
+
