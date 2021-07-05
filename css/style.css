@@ -23,13 +23,14 @@ a {
     float: left;
 }
 
-.large-buttom {
+.large-buttom, .large-buttom-blue {
     padding: 10px 90px;
 }
 
 .large-buttom-white {
     color: #000;
     background-color: #fff;
+    display: inline-block;
 }
 
 .small-button-blue-white {
@@ -44,6 +45,12 @@ a {
     background-color: #0061ff;
     color: #fff;
     padding: 8px 28px;
+}
+
+.large-buttom-blue {
+    background-color: #0061ff;
+    color: #fff;
+    display: inline-block;
 }
 
 .big-button-blue-white-colum, .big-button-right {
@@ -282,6 +289,10 @@ label {
     margin-bottom: 40px;
     font-weight: bold;
 }
+
+.button-right a {
+    margin-top: 30px;
+}
 /* /Main Colum */
 /* /Main Plan */
 /* Find pattern */
@@ -481,21 +492,28 @@ label {
     
 }
 
-.joi-title, .join-bottom {
+.join-title, .join-bottom {
     float: left;
     width: 50%;
 }
+.join-buttom a {
+    margin-top: 130px;
+    margin-left: 250px;
+}
+
 
 .join-title > h2 {
     margin-top: 130px;
     display: inline-block;
-    width: 50%;
     font-size: 50px;
     color: #61082b;
     font-size: 40px;
     line-height: 40px;
 }
 /* FAQ */
+.faq {
+    min-height: 700px;
+}
 
 .frequent-title {
     margin-top: 130px;
@@ -503,27 +521,85 @@ label {
     font-size: 25px;
 }
 
-.questions {
-    text-decoration: none;
+.questions ul {
+    list-style: none;
 }
+
+.question > div {
+    border: 1px solid black;
+}
+
+.text-question, .entity-question {
+    float: left;
+}
+
+.text-question {
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 1px solid #dcdcde;
+    padding: 40px 0px;
+}
+
+.fa-chevron-down {
+    border-top: 1px solid #dcdcde;
+    padding: 45px 0px;
+}
+
+.last {
+    border-bottom: 1px solid #dcdcde;
+}
+
+.text-quest-bottom {
+    border-bottom: 1px solid #dcdcde;
+}
+
+.entity-question {
+    width: 10%;
+}
+
 /* Footer */
 .background-footer {
     background-color: #000;
-    min-height: 490px;
+    min-height: 550px;
 }
 
-.footer-column1, .footer-column2, .footer-column3, .footer-column4, .footer-column4 {
+.footer-column1, .footer-column2, .footer-column3, .footer-column4, .footer-column5 {
     float: left;
-    width: calc(98% / 5);
+    width: calc(100% / 5);
 }
 
-
-.footer-column1 h4, .footer-column1 a {
+.footer-column1 h4, .footer-column2 h4, .footer-column3 h4, .footer-column4 h4, .footer-column5 h4 {
     color: #fff;
-    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 30px;
 }
 
-.info-footer {
-    width: 80%;
-    margin: 0 10%;
+
+.footer-column1 a, .footer-column2 a, .footer-column3 a, .footer-column4 a, .footer-column5 a {
+    color: #fff;
+    line-height: 2;
 }
+
+.footer-column1 a:hover, .footer-column2 a:hover, .footer-column3 a:hover, .footer-column4 a:hover, .footer-column5 a:hover {
+    text-decoration: underline;
+}
+
+.language hr {
+    color: white;
+}
+
+.language i {
+    color: #999999;
+}
+
+.language a {
+    color: rgb(102, 102, 102);
+}
+
+.language hr {
+    width: 8%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+/* /Footer */
