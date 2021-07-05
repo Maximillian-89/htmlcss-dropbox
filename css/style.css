@@ -23,6 +23,16 @@ a {
     float: left;
 }
 
+.large-buttom {
+    padding: 10px 90px;
+}
+
+.large-buttom-white {
+    color: #000;
+    background-color: #fff;
+    position: absolute;
+}
+
 .small-button-blue-white {
     color: #fff;
     font-size: 16px;
@@ -31,15 +41,13 @@ a {
     background-color: #0061ff;
 }
 
-.big-button-blue-white {
+.big-button-blue-white, .big-button-blue-white-colum, .big-button-right {
     background-color: #0061ff;
     color: #fff;
     padding: 8px 28px;
 }
 
 .big-button-blue-white-colum, .big-button-right {
-    background-color: #0061ff;
-    color: #fff;
     padding: 10px 62px;
 }
 /* /Common */
@@ -264,7 +272,7 @@ label {
     font-weight: bold;
 }
 /* /Main Colum */
-/* Main Plan */
+/* /Main Plan */
 /* Find pattern */
 .partner-left, .partner-right {
     float: left;
@@ -349,52 +357,77 @@ label {
     font-size: 18px;
     color: #0061ff;
 }
-
-.partners-left, .partners-center, .partners-right {
+/* Square brands */
+.brands-left, .brands-center, .brands-right {
     float: left;
     height: 300px;
 }
 
-.partners-left, .partners-right {
+.brands-left, .brands-right {
     width: 30%;
-    background-color: red;
-
 }
 
-.partners-center {
+.brands-center {
     width: 40%;
     min-height: 500px;
     background-color: #f5f5f5;
 }
 
-.partner-logo-left, .partner-logo-right {
+.brands-center img {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.brands-center > hr {
+    margin-left: 50px;
+    width: 70px;
+    margin-top: 25px;
+    border-top-width: 0px;
+    color: #dedee0;
+}
+
+.brands-center p {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.brands-center > div {
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.brand-logo-left, .brand-logo-right {
     width: calc(100% / 2);
     height: 250px;
     float: left;
 }
 
-.partner-logo-left {
+.brand-logo-left {
     background-color: #a2d39b;
 }
 
-.partner-logo-right {
+.brand-logo-right {
     background-color: #61082b;
 }
 
-.partner-logo-bottom-left {
+.brand-logo-bottom-left {
     background-color: #0093ce;
 }
 
-.partner-logo-bottom-right {
+.brand-logo-bottom-right {
     background-color: #ff1c1c;
 }
 
-.partner-logo-left, .partner-logo-right, .partner-logo-bottom-left, .partner-logo-bottom-right {
+.brand-logo-left, .brand-logo-right, .brand-logo-bottom-left, .brand-logo-bottom-right {
     position: relative;
 }
 
 
-.partner-logo-left img, .partner-logo-right img, .partner-logo-bottom-left img, .partner-logo-bottom-right img {
+.brand-logo-left img, .brand-logo-right img, .brand-logo-bottom-left img, .brand-logo-bottom-right img {
     position: absolute;
     width: 50%;
     top: 50%;
@@ -402,7 +435,7 @@ label {
     transform: translate(-50%, -50%);
 }
 
-.partner-logo-bottom-left, .partner-logo-bottom-right {
+.brand-logo-bottom-left, .brand-logo-bottom-right {
     width: calc(100% / 2);
     float: left;
     height: 250px;
@@ -427,4 +460,25 @@ label {
 .border:hover {
     border: 10px solid rgba(255,255,255,0.5);
 }
-/* border: 10px solid rgba(255,255,255,0.5); */
+/* /Square brands */
+.background-business {
+    background-color: #b4d0e7;
+    min-height: 350px;
+}
+
+.test {
+    position: relative;
+}
+
+.test > h2 {
+    color: #61082b;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.test h2 {
+    /* width: 40%; */
+    padding-top: 130px;
+}
+/* FAQ */
+
