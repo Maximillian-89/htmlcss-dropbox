@@ -256,14 +256,26 @@ label {
     margin: 0 3%;
 }
 
+.text-left, .button-right {
+    float: left;
+}
+
+.text-left {
+    width: 70%;
+}
+
 .button-right {
+    width: 30%;
+}
+
+/* .button-right {
     position: relative
 }
 
 .big-button-right {
     position: absolute;
     right: 0;
-}
+} */
 
 .sales-office {
     margin-top: 20px;
@@ -485,3 +497,33 @@ label {
 }
 /* FAQ */
 
+.frequent-title {
+    margin-top: 130px;
+    margin-bottom: 55px;
+    font-size: 25px;
+}
+
+.questions {
+    text-decoration: none;
+}
+/* Footer */
+.background-footer {
+    background-color: #000;
+    min-height: 490px;
+}
+
+.footer-column1, .footer-column2, .footer-column3, .footer-column4, .footer-column4 {
+    float: left;
+    width: calc(98% / 5);
+}
+
+
+.footer-column1 h4, .footer-column1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info-footer {
+    width: 80%;
+    margin: 0 10%;
+}
