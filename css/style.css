@@ -30,7 +30,6 @@ a {
 .large-buttom-white {
     color: #000;
     background-color: #fff;
-    position: absolute;
 }
 
 .small-button-blue-white {
@@ -466,19 +465,23 @@ label {
     min-height: 350px;
 }
 
-.test {
-    position: relative;
+.join-business {
+    
 }
 
-.test > h2 {
+.joi-title, .join-bottom {
+    float: left;
+    width: 50%;
+}
+
+.join-title > h2 {
+    margin-top: 130px;
+    display: inline-block;
+    width: 50%;
+    font-size: 50px;
     color: #61082b;
     font-size: 40px;
     line-height: 40px;
-}
-
-.test h2 {
-    /* width: 40%; */
-    padding-top: 130px;
 }
 /* FAQ */
 
