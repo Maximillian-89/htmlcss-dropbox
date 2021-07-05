@@ -23,10 +23,6 @@ a {
     clear: both;
 }
 
-.colum-left, .right-colum {
-    float: left;
-}
-
 .large-buttom, .large-buttom-blue {
     padding: 10px 90px;
 }
@@ -37,35 +33,48 @@ a {
     display: inline-block;
 }
 
-.small-button-blue-white {
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    padding: 5px 15px;
+.small-button-blue-white, .big-button-blue-white, .big-button-blue-white-colum, .big-button-right, .large-buttom-blue {
     background-color: #0061ff;
 }
 
+.small-button-blue-white {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 5px 15px;
+}
+
 .big-button-blue-white, .big-button-blue-white-colum, .big-button-right {
-    background-color: #0061ff;
-    color: #fff;
     padding: 8px 28px;
 }
 
 .large-buttom-blue {
-    background-color: #0061ff;
-    color: #fff;
     display: inline-block;
 }
 
 .big-button-blue-white-colum, .big-button-right {
     padding: 10px 62px;
 }
+
+.colum-left, .right-colum, .colum-l50, .colum-r50, .first-colum, .second-colum, .third-colum, .text-left, .button-right, .partner-left, .partner-right, .tools-column-left, .tools-column-center, .tools-column-right, .brands-left, .brands-center, .brands-right, .brand-logo-left, .brand-logo-right, .brand-logo-bottom-left, .brand-logo-bottom-right, .join-title, .join-bottom, .text-question, .entity-question, .footer-column1, .footer-column2, .footer-column3, .footer-column4, .footer-column5 {
+    float: left;
+}
+
+.small-button-blue-white, .big-button-blue-white, .big-button-blue-white-colum, .big-button-right, .large-buttom-blue, .colum-right ul li:last-child a, .footer-column1 h4, .footer-column2 h4, .footer-column3 h4, .footer-column4 h4, .footer-column5 h4, .footer-column1 a, .footer-column2 a, .footer-column3 a, .footer-column4 a, .footer-column5 a, .language hr {
+    color: #fff;
+}
+
+label, .join-partner p, .tools-column-left p, .tools-column-center p, .tools-column-right p, .team-numbers a, .text-question {
+    font-size: 18px;
+}
+
+nav, .colum-r50 > img, .colum-r50 > img, .last-colum .partner-left > img, .tools-column-left img, .tools-column-center img, .tools-column-right img {
+    width: 100%;
+}
 /* /Common */
 /* Nav left */
 nav {
     background-color: white;
     height: 80px;
-    width: 100%;
     position: fixed;
     z-index: 1;
 }
@@ -96,7 +105,6 @@ nav {
 }
 
 .colum-right ul li:last-child a {
-    color: #fff;
     margin-right: 20px;   
 }
 /* /Nav Right */
@@ -118,7 +126,6 @@ nav {
 }
 
 .colum-l50 {
-    float: left;
     width: calc(100% / 2);
 }
 
@@ -134,18 +141,17 @@ nav {
 }
 
 .colum-r50 {
-    float: left;
     width: 50%;
 }
 
 .colum-r50 > img {
-    width: 100%;
     padding-top: 50px;
 }
 
 .fa-arrow-down {
     margin-top: 15px;
     font-size: 40px;
+    color: #000;
 }
 /* /Main Jumbo */
 /* Main Plan */
@@ -162,7 +168,6 @@ nav {
 
 label {
     font-weight: 400;
-    font-size: 18px;
 }
 
 .radio-r {
@@ -174,7 +179,6 @@ label {
 }
 
 .first-colum, .second-colum, .third-colum {
-    float: left;
     width: calc((100% / 3) - 40px);
     min-height: 1200px;
 }
@@ -266,17 +270,12 @@ label {
 .last-colum {
     margin-top: 50px;
     margin-bottom: 150px;
-    width: 100%;
     min-height: 250px;
 }
 
 .single-plan2 {
     width: 94%;
     margin: 0 3%;
-}
-
-.text-left, .button-right {
-    float: left;
 }
 
 .text-left {
@@ -286,15 +285,6 @@ label {
 .button-right {
     width: 30%;
 }
-
-/* .button-right {
-    position: relative
-}
-
-.big-button-right {
-    position: absolute;
-    right: 0;
-} */
 
 .sales-office {
     margin-top: 20px;
@@ -309,12 +299,7 @@ label {
 /* /Main Plan */
 /* Find pattern */
 .partner-left, .partner-right {
-    float: left;
     width: 50%;
-}
-
-.partner-left > img {
-    width: 100%;
 }
 
 .partner-right {
@@ -331,7 +316,6 @@ label {
 
 .join-partner p {
     margin: 30px 0px;
-    font-size: 18px;
     line-height: 2;
 }
 
@@ -343,21 +327,12 @@ label {
 /* /Find pattern */
 /* Features tools */
 .tools-column-left, .tools-column-center, .tools-column-right {
-    float: left;
     width: calc((100% / 3) - 60px);
-}
-
-.tools-column-left img, .tools-column-center img, .tools-column-right img {
-    width: 100%;
 }
 
 .tools-column-left h3, .tools-column-center h3, .tools-column-right h3 {
     margin-bottom: 30px;
     font-size: 28px;
-}
-
-.tools-column-left p, .tools-column-center p, .tools-column-right p {
-    font-size: 18px;
 }
 
 .tools-column-left p span {
@@ -388,12 +363,10 @@ label {
 
 .team-numbers a {
     text-decoration: underline;
-    font-size: 18px;
     color: #0061ff;
 }
 /* Square brands */
 .brands-left, .brands-center, .brands-right {
-    float: left;
     height: 300px;
 }
 
@@ -437,7 +410,6 @@ label {
 .brand-logo-left, .brand-logo-right {
     width: calc(100% / 2);
     height: 250px;
-    float: left;
 }
 
 .brand-logo-left {
@@ -471,7 +443,6 @@ label {
 
 .brand-logo-bottom-left, .brand-logo-bottom-right {
     width: calc(100% / 2);
-    float: left;
     height: 250px;
 }
 
@@ -500,19 +471,13 @@ label {
     min-height: 350px;
 }
 
-.join-business {
-    
-}
-
 .join-title, .join-bottom {
-    float: left;
     width: 50%;
 }
 .join-buttom a {
     margin-top: 130px;
     margin-left: 250px;
 }
-
 
 .join-title > h2 {
     margin-top: 130px;
@@ -541,13 +506,8 @@ label {
     border: 1px solid black;
 }
 
-.text-question, .entity-question {
-    float: left;
-}
-
 .text-question {
     width: 90%;
-    font-size: 18px;
     font-weight: bold;
     border-top: 1px solid #dcdcde;
     padding: 40px 0px;
@@ -577,28 +537,21 @@ label {
 }
 
 .footer-column1, .footer-column2, .footer-column3, .footer-column4, .footer-column5 {
-    float: left;
     width: calc(100% / 5);
 }
 
 .footer-column1 h4, .footer-column2 h4, .footer-column3 h4, .footer-column4 h4, .footer-column5 h4 {
-    color: #fff;
     font-size: 22px;
     margin-bottom: 30px;
 }
 
 
 .footer-column1 a, .footer-column2 a, .footer-column3 a, .footer-column4 a, .footer-column5 a {
-    color: #fff;
     line-height: 2;
 }
 
 .footer-column1 a:hover, .footer-column2 a:hover, .footer-column3 a:hover, .footer-column4 a:hover, .footer-column5 a:hover {
     text-decoration: underline;
-}
-
-.language hr {
-    color: white;
 }
 
 .language i {
