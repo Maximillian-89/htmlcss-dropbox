@@ -67,7 +67,7 @@ label, .join-partner p, .tools-column-left p, .tools-column-center p, .tools-col
     font-size: 18px;
 }
 
-nav, .colum-r50 > img, .colum-r50 > img, .last-colum .partner-left > img, .tools-column-left img, .tools-column-center img, .tools-column-right img {
+nav, .colum-r50 > img, .colum-r50 > img, .last-colum, .partner-left > img, .tools-column-left img, .tools-column-center img, .tools-column-right img {
     width: 100%;
 }
 /* /Common */
